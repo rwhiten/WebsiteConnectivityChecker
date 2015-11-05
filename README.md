@@ -10,3 +10,14 @@ This program allows you to check addresses by either an HTTP Web Request (HEAD) 
 
 ## Gateway Checking
 If you want to make sure you are connected to a certain gateway or router you can also enter a gateway IP to be checked.
+
+## How to use
+This program is useful as a way of quickly knowing if all web addresses or services are up on a system without having to manually check. It is also helpful to those who may not be very computer savvy in letting them know if they have network issues with addresses they frequently visit or need to use.
+
+Once compiled, launch Website Connectivity Checker. Right click on the system tray Icon to access the menu. Select the settings and add all addresses you would like. Thats it. The icon will change when there are connection problems to the addresses and hovering over the icon will display more information.
+
+### Right Click Menu Options
+1. About - Display author information
+2. Settings - Form for specifying addresses and gateway to check
+3. Check Now - Runs the actual checking of addresses on click
+4. Exit - Exit the application
