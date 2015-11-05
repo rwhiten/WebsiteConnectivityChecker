@@ -1,7 +1,7 @@
 # Website Connectivity Checker
 Simple system tray website connectivity checker
 
-This system tray application checks for websites or IP addresses added to its settings list. Once it has confirmed that a website is up, it will continue to check every 10 minutes. If there is a network change, such as changing IP address or connection, it will instantly recheck the addresses in the list. 
+This system tray application checks for websites or IP addresses added to its settings list. Once it has confirmed that a website is up, it will continue to check every 10 minutes. If the network is down it will check every 10 seconds until reconnected. If there is a network change, such as changing IP address or connection, it will instantly recheck the addresses in the list. 
 
 The icon for this program is color coded. Red means you are not connected to a network adapter (Network Interface Card). Yellow means you are connected to an adapter, but some or all of the addresses in your settings were unreachable. Green means everything is working fine and you are connected to all addresses.
 
